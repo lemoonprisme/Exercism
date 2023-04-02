@@ -2,7 +2,7 @@
 
 public class RaceTrack
 {
-    private int _distance;
+    private readonly int _distance;
 
     public RaceTrack(int distance){
         _distance = distance;
