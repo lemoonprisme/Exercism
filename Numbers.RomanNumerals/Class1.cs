@@ -1,6 +1,5 @@
 ﻿namespace Numbers.RomanNumerals;
 
-public class RomanNumerals
+public class Class1
 {
-    
 }
