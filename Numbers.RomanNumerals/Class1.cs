@@ -6,4 +6,9 @@ public class Class1
     {
         Console.WriteLine("Woof");
     }
+    
+    public void Bloop()
+    {
+        Console.WriteLine("Bloop");
+    }
 }
