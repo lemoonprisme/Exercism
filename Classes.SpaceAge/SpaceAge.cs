@@ -47,7 +47,7 @@ public class SpaceAge
     {
         return _spaceAge / Saturn;
     }
-
+    
     public double OnUranus()
     {
         return _spaceAge / Uranus;
