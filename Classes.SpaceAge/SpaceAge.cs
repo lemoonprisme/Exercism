@@ -4,15 +4,15 @@ public class SpaceAge
 {
     private readonly double _spaceAge;
     // _mercury = Rotation period of Mercury / Rotation period of Earth 
-    private readonly double _mercury = 0.2408467;
-    private readonly double _venus = 0.61519726;
-    private readonly double _earth = 1.0;
-    private readonly double _mars = 1.8808158;
-    private readonly double _jupiter = 11.862615;
-    private readonly double _saturn = 29.447498;
-    private readonly double _uranus = 84.016846;
-    private readonly double _neptune = 164.79132;
-    
+    private const double Mercury = 0.2408467;
+    private const double Venus = 0.61519726;
+    private const double Earth = 1.0;
+    private const double Mars = 1.8808158;
+    private const double Jupiter = 11.862615;
+    private const double Saturn = 29.447498;
+    private const double Uranus = 84.016846;
+    private const double Neptune = 164.79132;
+
     public SpaceAge(int seconds)
     {
         _spaceAge = seconds / 31557600d;
@@ -20,41 +20,41 @@ public class SpaceAge
 
     public double OnEarth()
     {
-        return _spaceAge / _earth;
+        return _spaceAge / Earth;
     }
 
     public double OnMercury()
     {
-        return _spaceAge / _mercury;
+        return _spaceAge / Mercury;
     }
 
     public double OnVenus()
     {
-        return _spaceAge / _venus;
+        return _spaceAge / Venus;
     }
 
     public double OnMars()
     {
-        return _spaceAge / _mars;
+        return _spaceAge / Mars;
     }
 
     public double OnJupiter()
     {
-        return _spaceAge / _jupiter;
+        return _spaceAge / Jupiter;
     }
 
     public double OnSaturn()
     {
-        return _spaceAge / _saturn;
+        return _spaceAge / Saturn;
     }
 
     public double OnUranus()
     {
-        return _spaceAge / _uranus;
+        return _spaceAge / Uranus;
     }
 
     public double OnNeptune()
     {
-        return _spaceAge / _neptune;
+        return _spaceAge / Neptune;
     }
 }
