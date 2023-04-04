@@ -27,4 +27,5 @@ public static class Triangle
                 return side1 == side2 && side2 == side3;
             return false;
         }
+        //need to merge
 }
