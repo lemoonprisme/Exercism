@@ -10,6 +10,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IfStatements.Darts", "IfSta
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Classes.SpaceAge", "Classes.SpaceAge\Classes.SpaceAge.csproj", "{67AD41E1-D0C8-4578-A42D-C29DD9E08785}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IfStatements.Triangle", "IfStatements.Triangle\IfStatements.Triangle.csproj", "{EC0F03E7-77CE-49FF-BF32-C35236B94366}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +38,9 @@ Global
 		{67AD41E1-D0C8-4578-A42D-C29DD9E08785}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{67AD41E1-D0C8-4578-A42D-C29DD9E08785}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{67AD41E1-D0C8-4578-A42D-C29DD9E08785}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC0F03E7-77CE-49FF-BF32-C35236B94366}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC0F03E7-77CE-49FF-BF32-C35236B94366}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC0F03E7-77CE-49FF-BF32-C35236B94366}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC0F03E7-77CE-49FF-BF32-C35236B94366}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
