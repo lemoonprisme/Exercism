@@ -13,4 +13,26 @@ public class UnitTest1
         
         Assert.Equal(expected, actual);
     }
+    [Fact]
+    public void Test2()
+    {
+        var msg = "TEITELHDVLSNHDTISEIIEA";
+        var decoder = new RailFenceCipher(3);
+        var expected = "THEDEVILISINTHEDETAILS";
+
+        var actual = decoder.Decode(msg); 
+        
+        Assert.Equal(expected, actual);
+    }
+    [Fact]
+    public void Test3()
+    {
+        var msg = "EIEXMSMESAORIWSCE";
+        var decoder = new RailFenceCipher(5);
+        var expected = "EXERCISMISAWESOME";
+
+        var actual = decoder.Decode(msg); 
+        
+        Assert.Equal(expected, actual);
+    }
 }
