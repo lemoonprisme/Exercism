@@ -35,7 +35,7 @@ public class RailFenceCipher
         {
             
             k = 2 * n * (_rails - 1);
-            if (k + i > msg.Length)
+            if (k - i >= msg.Length)
             {
                 n = 0;
                 i++;
